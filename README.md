@@ -28,6 +28,25 @@ Example:
 You use clear, explicit commands with action verbs to outline constraints, formats, and rules without needing examples.
 Example:
 “Write a product description under 50 words using a professional tone.”
+```
+User Requirement
+       ↓
+Task Identification
+       ↓
+Prompt Creation
+       ↓
+Context and Instructions
+       ↓
+AI Model
+       ↓
+Generated Response
+       ↓
+Output Evaluation
+       ↓
+Prompt Refinement
+       ↓
+Improved Response
+```
 ### ESSENTIAL PROMPT TECHNIQUES
 •	Context Framing: Set clear roles, target audiences, specific tones, and exact output formats.
 •	Advanced Prompting: Apply few-shot learning with examples and use chain-of-thought logic for complex problem-solving.
@@ -71,6 +90,104 @@ FOR DOCUMENTS
 2., "I'm looking for a [type of email] that will speak directly to the needs and pain points of my [ideal customer persona] and persuade them to take [desired action] with a sense of urgency and strong offer."<EMAIL MARKETING>
 3.“I want you to act as a storyteller. You will come up with entertaining stories that are engaging, imaginative and captivating for the audience. It can be fairy tales, educational stories or any other type of stories which has the potential to capture people's attention and imagination. Depending on the target audience, you may choose specific themes or topics for your storytelling session e.g., if it’s children then you can talk about animals; If it’s adults then history-based tales might engage them better etc. My first request is "I need an interesting story on perseverance.”
 <STORY TELLING>
+
+## Block diagram 
+```
+┌───────────────────────┐
+│   USER REQUIREMENT    │
+└───────────┬───────────┘
+            ↓
+┌───────────────────────┐
+│  IDENTIFY THE TASK    │
+└───────────┬───────────┘
+            ↓
+┌───────────────────────┐
+│   CREATE THE PROMPT   │
+└───────────┬───────────┘
+            ↓
+┌───────────────────────┐
+│ ADD CONTEXT, EXAMPLES │
+│ AND INSTRUCTIONS      │
+└───────────┬───────────┘
+            ↓
+┌───────────────────────┐
+│       AI MODEL        │
+└───────────┬───────────┘
+            ↓
+┌───────────────────────┐
+│  GENERATE RESPONSE    │
+└───────────┬───────────┘
+            ↓
+┌───────────────────────┐
+│  EVALUATE THE OUTPUT  │
+└───────────┬───────────┘
+            ↓
+       Is Output
+       Satisfactory?
+        /       \
+      Yes        No
+       ↓          ↓
+ Final Output  Refine Prompt
+                   ↓
+                AI Model
+```
+
+## PROMPT REFINEMENT
+Prompt refinement is the process of improving a prompt after analyzing the generated response.
+
+The following changes can be made during refinement:
+
+Add more context. Make instructions clearer. Specify the expected output format. Add examples. Define the target audience. Add limitations. Remove ambiguous instructions.
+
+Example:
+
+Initial Prompt Explain AI. Refined Prompt Explain Artificial Intelligence for first-year engineering students. Include its definition, working principle, applications, advantages, and limitations. Use simple English and provide the answer with headings.
+
+The refined prompt provides more guidance to the AI system.
+
+APPLICATIONS OF PROMPT ENGINEERING
+Prompt Engineering has applications in several areas.
+
+Education
+
+AI can assist students by explaining concepts, generating practice questions, summarizing lessons, and providing learning materials.
+
+Example:
+
+Explain the working principle of a transistor in simple language. Programming
+
+AI systems can assist programmers in generating, explaining, and debugging programs.
+
+Example:
+
+Write a Python program to find the largest number in a list. Explain each line of the program. Content Generation
+
+Prompt Engineering can be used to generate:
+
+Articles Reports Emails Summaries Presentations Data Analysis
+
+AI can assist in understanding datasets and generating analysis.
+
+Example:
+
+Analyze the dataset and identify important trends. Provide the results in bullet points. Customer Support
+
+AI-powered systems can respond to customer questions and provide assistance.
+
+Well-designed prompts can help ensure that responses are relevant and properly structured.
+
+Research
+
+Researchers can use AI systems to:
+
+Summarize information Generate ideas Organize content Explain complex concepts Language Translation
+
+AI systems can translate content between languages.
+
+Example:
+
+Translate the following English sentence into simple German.
+
 
 ### CORE TAKEAWAYS
 
